@@ -4,6 +4,10 @@ public class LetterGrader {
         return intA + intB;
     }
 
+    public int subtract(int intA, int intB) {
+        return intA - intB;
+    }
+
     public char determineLetterGrade(int letterGrade) {
         if (letterGrade < 60) {
             return 'F';
