@@ -4,7 +4,7 @@ public class LetterGrader {
         return intA + intB;
     }
 
-    public char getGrade(int letterGrade) {
+    public char determineLetterGrade(int letterGrade) {
         if (letterGrade < 60) {
             return 'F';
         } else if (letterGrade < 70) {
