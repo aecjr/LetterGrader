@@ -1,10 +1,10 @@
 public class LetterGrader {
 
-    public int add(int intA, int intB) {
+    public static int add(int intA, int intB) {
         return intA + intB;
     }
 
-    public int subtract(int intA, int intB) {
+    public static int subtract(int intA, int intB) {
         return intA - intB;
     }
 

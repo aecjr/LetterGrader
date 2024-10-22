@@ -10,7 +10,7 @@ public class LetterGraderTest {
     // MathUtils Tests
     @Test
     public void twoPlusTwoShouldEqualFour() {
-        assertEquals(4, grader.add(2, 2));
+        assertEquals(4, LetterGrader.add(2, 2));
     }
 
     // LetterGrader Tests
