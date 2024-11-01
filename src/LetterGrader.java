@@ -8,14 +8,17 @@ public class LetterGrader {
         return intA - intB;
     }
 
-    public char determineLetterGrade(int letterGrade) {
-        if (letterGrade < 60) {
+    public char determineLetterGrade(int numberGrade) {
+        if (numberGrade < 0) {
+            throw new IllegalArgumentException("Number cannot be less than 0.");
+        }
+        else if (numberGrade < 60) {
             return 'F';
-        } else if (letterGrade < 70) {
+        } else if (numberGrade < 70) {
             return 'D';
-        } else if (letterGrade < 80) {
+        } else if (numberGrade < 80) {
             return 'C';
-        } else if (letterGrade < 90) {
+        } else if (numberGrade < 90) {
             return 'B';
         } else {
             return 'A';

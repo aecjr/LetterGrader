@@ -7,6 +7,7 @@ public class App {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter your final average [0-100]: ");
+        System.err.println(input);
 
         int finalGrade = input.nextInt();
 
